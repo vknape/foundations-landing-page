@@ -44,6 +44,15 @@ li {
     flex: 1;
 }
 
+.combi img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 80%;
+    border-radius: 10%;
+    border: #3882f6 solid 5px;
+}
+
 .container {
     display: flex;
 }
