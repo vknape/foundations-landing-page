@@ -104,7 +104,28 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.quote .text {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.author {
+    width: 900px;
+    margin: 0 auto;
+    text-align: right;
+    font-weight: bold;
 }
 
 .action {
