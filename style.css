@@ -38,16 +38,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 50px;
 }
 
-li {
-    width: 500px;
+.hero ul {
+    width: 400px;
     list-style: none;
 }
 
-.hero img {
+.hero .main {
+    font-size: 48px;
+    font-weight:800;
+}
 
+.hero .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 1000;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin-top: 10px;
 }
 
 .mid {
